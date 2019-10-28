@@ -9,7 +9,7 @@ git clone https://github.com/jatr6994/Video-Speed-Up-Chrome
 Navigate to chrome://extensions/
 Enable Developer Mode
 Click Load Unpacked
-Load the unpacked service
+Load the cloned repo
 ```
 
 ### Speed Settings:
@@ -17,4 +17,5 @@ Load the unpacked service
 0.5x = half speed
 1x = normal speed
 10x = 10 times speed
+... etc.
 ```
