@@ -1,0 +1,14 @@
+{
+	"manifest_version": 2,
+	"name": "Video Speed Up",
+	"version": "1.0",
+	"background": {
+		"scripts": ["background.js"],
+		"persistent": false
+	},
+	"browser_action": {
+		"default_title": "SPEED UP!",
+		"default_icon": "icon.png"
+	},
+	"permissions": ["https://*/*","http://*/*","tabs"]
+}

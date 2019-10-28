@@ -1,0 +1,1 @@
+javascript:(function(){var r;(r=document.querySelector("video")).playbackRate=prompt("Speed",r.playbackRate)||r.playbackRate;}());
