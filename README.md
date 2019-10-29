@@ -2,7 +2,7 @@
 
 This was originally a Tampermonkey script for YouTube. Incredibly, it worked on way more sites than I expected. Maybe every website casually uses the exact same video player.
 
-## Beta POC
+### Beta POC
 ```
 git clone https://github.com/jatr6994/Video-Speed-Up-Chrome
 ```
@@ -24,14 +24,14 @@ Load the cloned repo
 ... etc.
 ```
 
-## Sites Confirmed Working:
+### Sites Confirmed Working:
 - YouTube
 - Vimeo
 - Coursera
 
 ---
 
-## How it Works:
+### How it Works:
 `inject.js` is the entirety of the script
 ```
 javascript:(function(){var r;(r=document.querySelector("video")).playbackRate=prompt("Speed",r.playbackRate)||r.playbackRate;}());
@@ -40,3 +40,11 @@ javascript:(function(){var r;(r=document.querySelector("video")).playbackRate=pr
 It may be expanded in the future to work on multiple video players.
 
 It also functions as a bookmarklet if you don't want to install the full extension.
+
+---
+
+### Future:
+- test on more websites and collect a list of where it currently works
+- expand script to work on websites that it currently doesn't work on
+- add (optionally per-site) shortcuts to run the script with a keypress
+  - i've used `s` on YouTube for a long time, perhaps a control key would be better for general sites
