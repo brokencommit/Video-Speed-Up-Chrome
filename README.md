@@ -29,6 +29,7 @@ Load the cloned repo
 - Vimeo
 - Coursera
 - Instagram
+- Facebook
 - "PH"
 - Netflix
 - TikTok
@@ -36,7 +37,6 @@ Load the cloned repo
 - imgur
 
 ### Sites Confirmed *NOT* Working:
-- Facebook
 - Amazon Prime Video
 - MIT OCW
 
