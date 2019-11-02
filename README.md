@@ -1,6 +1,6 @@
 # Video Speed Up Chrome Extension
 
-This was originally a Tampermonkey script for YouTube. Incredibly, it worked on way more sites than I expected. Maybe every website casually uses the exact same video player.
+Modifies the playback speed of the first `video` element on the page. This was originally a Tampermonkey script used only on YouTube. 
 
 ### Beta POC
 ```
@@ -28,13 +28,26 @@ Load the cloned repo
 - YouTube
 - Vimeo
 - Coursera
+- Instagram
+- "PH"
+- Netflix
+- TikTok
+- Gfycat
+- imgur
 
 ---
 
+### Sites Confirmed *NOT* Working:
+- Facebook
+- Amazon Prime Video
+- MIT OCW
+---
+
+
 ### How it Works:
 `inject.js` is the entirety of the script
-```
-javascript:(function(){var r;(r=document.querySelector("video")).playbackRate=prompt("Speed",r.playbackRate)||r.playbackRate;}());
+```js
+javascript:(function(){var r=document.querySelectorAll("video"), p=prompt("Speed",r[0].playbackRate);r.forEach(v=>v.playbackRate=p||v.playbackRate);}());
 ```
 
 It may be expanded in the future to work on multiple video players.
@@ -48,3 +61,4 @@ It also functions as a bookmarklet if you don't want to install the full extensi
 - expand script to work on websites that it currently doesn't work on
 - add (optionally per-site) shortcuts to run the script with a keypress
   - i've used `s` on YouTube for a long time, perhaps a control key would be better for general sites
+- change querySelector to querySelectorAll?
