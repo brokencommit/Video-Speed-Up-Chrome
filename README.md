@@ -47,7 +47,7 @@ Load the cloned repo
 ### How it Works:
 `inject.js` is the entirety of the script
 ```js
-javascript:(function(){var r=document.querySelectorAll("video"), p=prompt("Speed",r[0].playbackRate);r.forEach(v=>v.playbackRate=p||v.playbackRate);}());
+javascript:(function(){var r=document.querySelectorAll("video"),p=prompt("Speed",r[0].playbackRate);r.forEach(v=>v.playbackRate=p||v.playbackRate);}());
 ```
 
 It may be expanded in the future to work on multiple video players.
