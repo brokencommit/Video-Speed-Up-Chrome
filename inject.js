@@ -1,1 +1,1 @@
-javascript:(function(){var r;(r=document.querySelector("video")).playbackRate=prompt("Speed",r.playbackRate)||r.playbackRate;}());
+javascript:(function(){var r=document.querySelectorAll("video"),p=prompt("Speed",r[0].playbackRate);r.forEach(v=>v.playbackRate=p||v.playbackRate);}());
