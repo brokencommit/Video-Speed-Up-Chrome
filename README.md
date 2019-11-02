@@ -1,6 +1,6 @@
 # Video Speed Up Chrome Extension
 
-Modifies the playback speed of the first `video` element on the page. This was originally a Tampermonkey script used only on YouTube. 
+Modifies the playback speed of all `video` elements on the page. This was originally a Tampermonkey script used only on YouTube. 
 
 ### Beta POC
 ```
@@ -35,14 +35,12 @@ Load the cloned repo
 - Gfycat
 - imgur
 
----
-
 ### Sites Confirmed *NOT* Working:
 - Facebook
 - Amazon Prime Video
 - MIT OCW
----
 
+---
 
 ### How it Works:
 `inject.js` is the entirety of the script
