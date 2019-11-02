@@ -61,4 +61,4 @@ It also functions as a bookmarklet if you don't want to install the full extensi
 - expand script to work on websites that it currently doesn't work on
 - add (optionally per-site) shortcuts to run the script with a keypress
   - i've used `s` on YouTube for a long time, perhaps a control key would be better for general sites
-- change querySelector to querySelectorAll?
+- ~~change querySelector to querySelectorAll?~~
