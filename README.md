@@ -21,7 +21,6 @@ Load the cloned repo
 0.5 = half speed
 1 = normal speed
 10 = 10 times speed
-... etc.
 ```
 
 ### Sites Confirmed Working:
@@ -30,11 +29,9 @@ Load the cloned repo
 - Coursera
 - Instagram
 - Facebook
-- "PH"
 - Netflix
 - TikTok
 - Gfycat
-- imgur
 
 ### Sites Confirmed *NOT* Working:
 - Amazon Prime Video
