@@ -1,14 +1,21 @@
 {
-	"manifest_version": 2,
+	"manifest_version": 3,
 	"name": "Video Speed Up",
-	"version": "1.0",
+	"description": "Chrome Video Speed Up Extension",
+	"version": "1.1",
 	"background": {
-		"scripts": ["background.js"],
-		"persistent": false
+		"service_worker": "background.js"
 	},
-	"browser_action": {
-		"default_title": "Custom Playback Speed",
-		"default_icon": "icon.png"
+	"icons": {
+		"32": "icon.png"
 	},
-	"permissions": ["https://*/*","http://*/*","tabs"]
+	"action": {},
+	"permissions": [
+		"scripting",
+		"activeTab"
+	],
+	"host_permissions": [
+		"https://*/*",
+		"http://*/*"
+	]
 }
