@@ -4,7 +4,7 @@ Modifies the playback speed of all `video` elements on the page. This was origin
 
 ### Beta POC
 ```
-git clone https://github.com/jatr6994/Video-Speed-Up-Chrome
+git clone https://github.com/brokencommit/Video-Speed-Up-Chrome
 ```
 or download the zip directly.
 
