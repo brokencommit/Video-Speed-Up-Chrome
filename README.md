@@ -2,13 +2,13 @@
 
 Modifies the playback speed of all `video` elements on the page. This was originally a Tampermonkey script used only on YouTube. 
 
-### Download the repo
+### How To Download The Repo
 ```
 git clone https://github.com/brokencommit/Video-Speed-Up-Chrome
 ```
 or download the zip directly.
 
-### To Load in Google Chrome:
+### How To Load This Extension In Google Chrome:
 ```
 Navigate to chrome://extensions/
 Enable Developer Mode at the top right
@@ -45,9 +45,7 @@ Load the cloned repo
 javascript:(function(){var r=document.querySelectorAll("video"),p=prompt("Speed",r[0].playbackRate);r.forEach(v=>v.playbackRate=p||v.playbackRate);}());
 ```
 
-It may be expanded in the future to work on multiple video players.
-
-It also functions as a bookmarklet if you don't want to install the full extension. Simply bookmark the code snippet above.
+It also functions as a bookmarklet if you don't want to install the full extension. Simply create a bookmark with the url as the code snippet above.
 
 ---
 
