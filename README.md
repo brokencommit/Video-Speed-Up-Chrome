@@ -47,8 +47,7 @@ javascript:(function(){var r=document.querySelectorAll("video"),p=prompt("Speed"
 
 It may be expanded in the future to work on multiple video players.
 
-It also functions as a bookmarklet if you don't want to install the full extension.
-Simply bookmark the code snippet above.
+It also functions as a bookmarklet if you don't want to install the full extension. Simply bookmark the code snippet above.
 
 ---
 
